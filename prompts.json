@@ -1,0 +1,9 @@
+[
+  {
+    "id": "universal-scheduler",
+    "title": "Universal Hangout Scheduler",
+    "lang": "text",
+    "tags": ["social", "direct", "boilerplate"],
+    "body": "Prompt to {Person}:\nWhat is a concrete day this week\nwhere time exists that is not\ndelegated to other tasks or\nobligations that could be confirmed\nas an explicit ‘hang out’ with {Person}.\n\nTone: 🖨️ only, unambiguous, clear,\ndirect af.\n\nOutput:\nDate: {xx/xx/year}\nTime: {MST: x:xx am/pm}\nLocation: coordinates of meetup or\nspecific name and location\n\nConstraints:\n- must not evade, divert, or\nintroduce other topics\n- humor is banned\n- honesty and transparency\nrequired"
+  }
+]
