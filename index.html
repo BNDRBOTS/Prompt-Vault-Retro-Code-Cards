@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prompt Vault</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-noise" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand__kicker">Prompt Vault</div>
+      <div class="brand__title">
+        <span>PROMPT</span> <span>VAULT</span><br />
+        <span>COPY</span> <span>PASTE</span> <span>EXECUTE</span>
+      </div>
+    </div>
+
+    <div class="topbar__right">
+      <div class="scrollpct" id="scrollPct">00%</div>
+
+      <div class="controls">
+        <input id="q" class="input" type="search" placeholder="Search prompts…" autocomplete="off" />
+        <button id="clear" class="btn" type="button" title="Clear">Clear</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tags" id="tags" aria-label="Tags"></nav>
+
+  <main class="wrap">
+    <div id="count" class="count"></div>
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
